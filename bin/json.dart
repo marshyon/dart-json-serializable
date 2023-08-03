@@ -1,6 +1,4 @@
 import 'dart:convert';
-
-// import 'package:json/json.dart' as json;
 import 'package:json/person.dart';
 
 void main(List<String> arguments) {
@@ -10,7 +8,5 @@ void main(List<String> arguments) {
 
   for (var person in persons) {
     print('Name: ${person.name}, Age: ${person.age}');
-    // print(person.name); // Output: Alice, Bob
-    // print(person.age); // Output: 30, 25
   }
 }
